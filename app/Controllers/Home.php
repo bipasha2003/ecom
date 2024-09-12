@@ -8,4 +8,14 @@ class Home extends BaseController
     {
         return view('welcome_message');
     }
+
+    public function register(): string
+    {
+        return view('register');
+    }
+
+    public function login(): string
+    {
+        return view('login');
+    }
 }
