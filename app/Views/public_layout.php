@@ -9,6 +9,7 @@
     
 </head>
 <body>
+    <?= $this->include("navbar")?>
     <?= $this->renderSection('content')?>
 </body>
 </html>
